@@ -129,49 +129,106 @@ Projected FCFF:
 
 The **Weighted Average Cost of Capital (WACC / CMPC)** is used to discount future FCFF.
 
-### Cost of Equity
+## Cost of Equity
 
-The Cost of Equity is calculated using the Capital Asset Pricing Model:
+The Cost of Equity is calculated using the Capital Asset Pricing Model (CAPM):
 
 **Cost of Equity = Risk-Free Rate + Beta × Equity Risk Premium**
 
 Assumptions:
 
-* Risk-Free Rate: **3.0%**
-* Equity Risk Premium: **6.0%**
-* Beta: **1.15**
+- Risk-Free Rate: **3.0%**
+- Equity Risk Premium: **6.0%**
+- Beta: **1.15**
 
-Result:
+### What is Beta?
+
+Beta measures the systematic risk of a company relative to the overall market.
+
+- **Beta = 1.0** → the company has approximately the same market risk as the market
+- **Beta > 1.0** → the company is more sensitive to market movements
+- **Beta < 1.0** → the company is less sensitive to market movements
+
+A Beta of **1.15** means that the company's equity is assumed to be approximately 15% more sensitive to market movements than the overall market.
+
+### Calculation
+
+**Cost of Equity = 3.0% + (1.15 × 6.0%)**
 
 **Cost of Equity = 9.90%**
 
-### Cost of Debt
+---
 
-The after-tax Cost of Debt is calculated as:
+## Cost of Debt
 
-**After-Tax Cost of Debt = Pre-Tax Cost of Debt × (1 − Tax Rate)**
+The Pre-Tax Cost of Debt represents the interest rate required by lenders.
 
-With:
+Assumption:
 
-* Pre-Tax Cost of Debt: **5.0%**
-* Tax Rate: **25.0%**
+- Pre-Tax Cost of Debt: **5.0%**
+- Corporate Tax Rate: **25.0%**
 
-Result:
+Because interest expenses are generally tax deductible, the Cost of Debt is adjusted for the tax effect.
+
+**After-Tax Cost of Debt = Pre-Tax Cost of Debt × (1 - Tax Rate)**
+
+### Calculation
+
+**After-Tax Cost of Debt = 5.0% × (1 - 25%)**
 
 **After-Tax Cost of Debt = 3.75%**
 
-### WACC
+---
 
-The model assumes:
+## WACC Calculation
 
-* Equity Value used for capital structure: **€900m**
-* Debt: **€300m**
-* Equity Weight: **75%**
-* Debt Weight: **25%**
+WACC stands for **Weighted Average Cost of Capital**.
 
-Result:
+It represents the average return required by both shareholders and lenders based on their respective weights in the company's capital structure.
 
-**WACC = 8.36%**
+The WACC is used as the discount rate for the company's Free Cash Flow to Firm (FCFF).
+
+### Formula
+
+**WACC = (E / (D + E)) × Cost of Equity + (D / (D + E)) × After-Tax Cost of Debt**
+
+Where:
+
+- **E** = Market Value of Equity
+- **D** = Market Value of Debt
+- **Cost of Equity** = Required return for shareholders
+- **After-Tax Cost of Debt** = Cost of borrowing after the tax effect
+
+### Capital Structure
+
+- Equity: **€900m**
+- Debt: **€300m**
+
+Total Capital:
+
+**Total Capital = Equity + Debt**
+
+**Total Capital = €900m + €300m = €1,200m**
+
+### Equity Weight
+
+**Equity Weight = 900 / 1,200 = 75%**
+
+### Debt Weight
+
+**Debt Weight = 300 / 1,200 = 25%**
+
+### WACC Calculation
+
+**WACC = (75% × 9.90%) + (25% × 3.75%)**
+
+**WACC = 7.425% + 0.9375%**
+
+**WACC = 8.3625%**
+
+Therefore:
+
+**WACC ≈ 8.36%**
 
 ---
 
