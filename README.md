@@ -1,5 +1,9 @@
 # DCF Valuation Financial Model
 
+**Excel Financial Modeling | Corporate Finance | Valuation | FCFF | WACC | Sensitivity Analysis**
+
+A complete Discounted Cash Flow valuation model developed in Microsoft Excel to estimate the intrinsic value of a fictional company.
+
 ## Project Overview
 
 This project presents a complete **Discounted Cash Flow (DCF) valuation model** built in Microsoft Excel.
@@ -14,13 +18,26 @@ All financial data and assumptions used in this project are fictional and were c
 ## Model Preview
 
 ### 1. Summary Snapshot
-![DCF Valuation](Summary_snapshot)
+
+![DCF Summary Snapshot](summary_snapshot.png)
+
+The summary dashboard provides a quick overview of the main DCF valuation outputs, including Enterprise Value, Equity Value, WACC, Terminal Growth Rate and Implied Value per Share.
+
+---
 
 ### 2. DCF Valuation
+
 ![DCF Valuation](dcf_valuation.png)
 
+The valuation section presents the projected Free Cash Flow to Firm (FCFF), discount factors, present value of forecast cash flows, terminal value and the bridge from Enterprise Value to Equity Value.
+
+---
+
 ### 3. Sensitivity Analysis
+
 ![Sensitivity Analysis](sensitivity_analysis.png)
+
+The sensitivity table illustrates how the implied value per share changes depending on different WACC and Terminal Growth Rate assumptions.
 
 
 ---
