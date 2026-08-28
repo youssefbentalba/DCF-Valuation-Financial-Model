@@ -219,6 +219,9 @@ Total Capital:
 **Debt Weight = 300 / 1,200 = 25%**
 
 ### WACC Calculation
+T
+Calculation:
+
 
 **WACC = (75% × 9.90%) + (25% × 3.75%)**
 
