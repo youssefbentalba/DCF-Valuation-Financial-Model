@@ -19,7 +19,7 @@ All financial data and assumptions used in this project are fictional and were c
 
 ### 1. Summary Snapshot
 
-![DCF Summary Snapshot](summary_snapshot.png)
+![DCF Summary Snapshot](Summary_snapshot.png)
 
 The summary dashboard provides a quick overview of the main DCF valuation outputs, including Enterprise Value, Equity Value, WACC, Terminal Growth Rate and Implied Value per Share.
 
