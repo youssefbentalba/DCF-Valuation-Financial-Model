@@ -10,6 +10,19 @@ The model includes historical financial analysis, a five-year financial forecast
 
 All financial data and assumptions used in this project are fictional and were created for educational and portfolio purposes.
 
+
+## Model Preview
+
+### 1. Summary Snapshot
+![DCF Summary](summary_snapshot.png)
+
+### 2. DCF Valuation
+![DCF Valuation](dcf_valuation.png)
+
+### 3. Sensitivity Analysis
+![Sensitivity Analysis](sensitivity_analysis.png)
+
+
 ---
 
 ## Model Structure
@@ -22,7 +35,6 @@ The Excel model is organized into six main worksheets:
 * **Forecast** – Financial projections from 2026E to 2030E
 * **Valuation** – Discounted cash flow calculation and equity bridge
 * **Sensitivity** – WACC and terminal growth sensitivity analysis
-
 ---
 
 ## Valuation Methodology
