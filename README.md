@@ -6,8 +6,6 @@ A complete Discounted Cash Flow valuation model developed in Microsoft Excel to 
 
 ## Project Overview
 
-This project presents a complete **Discounted Cash Flow (DCF) valuation model** built in Microsoft Excel.
-
 The objective is to estimate the intrinsic value of a fictional company based on its expected future **Free Cash Flow to Firm (FCFF)**.
 
 The model includes historical financial analysis, a five-year financial forecast, WACC calculation, terminal value, enterprise value, equity value, implied value per share, and sensitivity analysis.
