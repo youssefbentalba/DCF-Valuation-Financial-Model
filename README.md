@@ -14,7 +14,7 @@ All financial data and assumptions used in this project are fictional and were c
 ## Model Preview
 
 ### 1. Summary Snapshot
-
+![DCF Valuation](Summary_snapshot)
 
 ### 2. DCF Valuation
 ![DCF Valuation](dcf_valuation.png)
