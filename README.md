@@ -266,7 +266,7 @@ This structure makes the model easier to review, audit and modify.
 
 ## Files
 
-`DCF_Valuation_Model.xlsx`
+`DCF_Valuation.xlsx`
 
 Complete Excel DCF valuation model including historical analysis, operating assumptions, financial forecast, FCFF calculation, WACC, terminal value, equity bridge and sensitivity analysis.
 
